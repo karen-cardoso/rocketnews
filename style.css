@@ -1,0 +1,40 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+
+    font-family: Spartan, Work Sans 
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+
+
+}
+
+.logo{
+    width: 389px;
+    height: 100%;
+
+    padding: 50px 0 92px 30px;
+}
+
+main h3{
+    color: var(--title-color);
+    font-weight: 700;
+    line-height: 2rem;
+
+}
+
+aside img{
+    width: 50%;
+    height: 100%;
+}
