@@ -34,22 +34,62 @@
 
 h3{
     color: var(--title-color);
+    line-height: 2rem;
+}
+
+.main p{
+    line-height: 2rem;
 }
 
 .main p:nth-of-type(1){
     font-weight: 700;
 }
 
-.form input{
-    border-left: 4px solid var(--title-color);
-    height: 44px;
+.form{
+    display: flex;;
+    margin-top: 2rem;
+   
 }
+
+.form input{
+    position: relative;
+    z-index: 2;
+
+    border-left: 4px solid var(--title-color);
+    float: left;
+    width: 55vw;
+    height: 2.75rem;
+}
+
+.arrow{
+    width: 2.75rem;
+    height: 2.75rem;
+    position: absolute;
+
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    cursor: c;
+
+    background-color: var(--bg-button-color);   
+}
+.read p{
+    display: flex;
+    font-weight: 400;
+
+    align-items: center;
+    color: var(--bg-button-color);
+}
+
 .aside{
     width:50vw;
+    height:100vh;
 }
 
 .aside img{
-    width: 100%;
+
+    width: 50vw;
     height: 100vh;
     
     object-fit: cover;
