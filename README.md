@@ -10,7 +10,7 @@
 - JS
 
 # Layout esperado
-<img src="https://www.figma.com/file/3HvhrtrN0g735bmuov7fmu/DD-%2F-RocketNews-(Copy)?node-id=101%3A2">
+<img src="https://prnt.sc/CyKl_FhjZjVu">
 
 ## Melhorias futuras
 
