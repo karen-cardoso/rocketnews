@@ -16,3 +16,6 @@
 
 - Envio dos e-mails cadastrados para um banco de dados
 - Ajustes de responsividade
+
+## Link
+https://karen-cardoso.github.io/rocketnews/
